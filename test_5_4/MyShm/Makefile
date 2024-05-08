@@ -1,10 +1,10 @@
 .PHONY:all
 all:A B
 
-B:ProcessB.cc
-	g++ -o $@ $^ -std=c++11
-A:ProcessA.cc
-	g++ -o $@ $^ -std=c++11
+B:ProcessB.c
+	gcc -o $@ $^
+A:ProcessA.c
+	gcc -o $@ $^
 
 .PHONY:clean
 clean:
