@@ -1,0 +1,1 @@
+[Debug][2024-6-1 19:54:57] Debug log to one file with one parameter: 3.140000[Fatal][2024-6-1 19:54:57] Fatal log to one file with no parameters
