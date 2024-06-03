@@ -36,6 +36,9 @@ bool Decode(std::string &package, std::string *content)
 class Request
 {
 public:
+    Request()
+    {
+    }
     Request(int data1, int data2, char oper)
         : x(data1), y(data2), op(oper)
     {
