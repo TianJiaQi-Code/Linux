@@ -83,6 +83,9 @@ public:
 class Response
 {
 public:
+    Response()
+    {
+    }
     Response(int res, int c)
         : result(res), code(c)
     {
